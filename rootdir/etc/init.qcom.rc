@@ -595,10 +595,6 @@ service seemp_healthd /vendor/bin/seemp_healthd
     user system
     group system
 
-# Set GPU OpenGL ES version
-on property:vendor.opengles.version=*
-    setprop ro.opengles.version ${vendor.opengles.version}
-
 service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     override
     class hal
