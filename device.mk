@@ -205,17 +205,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.3-service \
     android.hardware.graphics.mapper@2.0-impl-qti-display \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.memtrack@1.0-service \
     gralloc.sdm710 \
     hwcomposer.sdm710 \
     libdisplayconfig.qti \
     libqdMetaData \
     libtinyxml \
-    memtrack.sdm710 \
     vendor.display.config@2.0.vendor \
     vendor.display.config@2.0 \
-    vendor.qti.hardware.display.allocator@1.0-service
+    vendor.qti.hardware.display.allocator@1.0-service \
+    vendor.qti.hardware.memtrack-service
 
 # DRM
 PRODUCT_PACKAGES += \
