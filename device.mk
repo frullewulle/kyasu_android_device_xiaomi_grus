@@ -190,7 +190,8 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Device fstab
 PRODUCT_PACKAGES += \
-    fstab.qcom
+    fstab.qcom \
+    fstab.qcom.ramdisk
 
 # Device init scripts
 PRODUCT_PACKAGES += \
